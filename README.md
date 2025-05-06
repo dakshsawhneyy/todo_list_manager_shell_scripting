@@ -21,51 +21,44 @@ A simple To-Do List Manager built using **Shell Scripting**. This project allows
    ```bash
    git clone https://github.com/dakshsawhneyy/todo_list_manager_shell_scripting.git
    cd todo_list_manager_shell_scripting
+
 Make the script executable:
-
-bash
-Copy
-Edit
+```bash
 chmod +x todo_list.sh
-Run the script:
+```
 
-bash
-Copy
-Edit
+Run the script:
+```bash
 ./todo_list.sh
+```
+
 Follow the prompts to interact with your To-Do List Manager.
 
-Script Breakdown
-Display Tasks:
+### Script Breakdown 
+#### Display Tasks:
 
 Lists all tasks in the tasks.txt file.
-
 If the file is empty, it asks you to add tasks first.
 
-Add Task:
+#### Add Task:
 
 Prompts for the task description, priority (High, Medium, Low), and due date.
-
 The task is saved to tasks.txt.
 
-Delete Task:
+#### Delete Task:
 
 Lists all tasks with line numbers.
-
 Prompts to delete a task by selecting its line number.
 
-Mark Task as Completed:
+#### Mark Task as Completed:
 
 Lists tasks with numbers.
-
 Allows you to mark a task as completed, which updates [ ] to [X] in tasks.txt.
 
-File Structure
+#### File Structure
 todo_list.sh: The main shell script for managing the to-do list.
-
 tasks.txt: The file where tasks are stored. (Automatically created when you add a task.)
 
-Customization
+#### Customization
 You can modify the script to change the way tasks are stored or display additional information.
-
 Add additional features like editing tasks or sorting tasks based on due date or priority.
