@@ -35,23 +35,20 @@ Run the script:
 Follow the prompts to interact with your To-Do List Manager.
 
 ### Script Breakdown 
-#### Display Tasks:
 
+#### Display Tasks:
 Lists all tasks in the tasks.txt file.
 If the file is empty, it asks you to add tasks first.
 
 #### Add Task:
-
 Prompts for the task description, priority (High, Medium, Low), and due date.
 The task is saved to tasks.txt.
 
 #### Delete Task:
-
 Lists all tasks with line numbers.
 Prompts to delete a task by selecting its line number.
 
 #### Mark Task as Completed:
-
 Lists tasks with numbers.
 Allows you to mark a task as completed, which updates [ ] to [X] in tasks.txt.
 
